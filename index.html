@@ -26,22 +26,22 @@
         </header>
         <div class="content">
             <div class="info">
-                <h2>Teach the youth how to cook<br><span>Join our fantastic cook club</span><br><span>For kida aged
-                        8-10!</span></h2>
+                <h2>Teach youth how to cook!<br><span>Join our fantastic cook club</span><br><span>For kids aged
+                        10-18!</span></h2>
                 <p>The younge generation are consuming too much fast food. Help your kid to learn how to cook by joing
-                    our club</p>
+                    our club.</p>
             </div>
         </div>
-
     </section>
+
 
     <section id="about us">
         <h2>
             <center>About us</center>
         </h2>
         <p>
-            <center>Learn how to chose the ripe fruit and vegetable, try different food texture and the importance of
-                the seasoning the food!</center>
+            <center>Learn how to choose ripe fruit and vegetable, try different food texture and learn how to seasoning
+                the food!</center>
         </p>
         <br>
 
@@ -78,10 +78,34 @@
             </table>
     </section>
 
-    <section>
-        <h2>
-            <center>Sign Up</center>
-        </h2>
+    <section id="signup">
+        <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+            <h2>Let's get you signed up!</h2>
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first_name" class="text-input" required>
+            <br>
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" id="last_name" class="text-input" required>
+            <br>
+            <label for="email_address">Email Address</label>
+            <input type="email" name="email_address" id="email_address" class="text-input" required>
+            <br>
+            <div class="radio-buttons">
+                <div>
+                    <label for="road">Road</label>
+                    <input type="radio" name="running_preference" id="road" value="road" required checked>
+                </div>
+                <div>
+                    <label for="trail">Trail</label>
+                    <input type="radio" name="running_preference" id="trail" value="trail" required>
+                </div>
+                <div>
+                    <label for="both">Both</label>
+                    <input type="radio" name="running_preference" id="both" value="both" required>
+                </div>
+            </div>
+            <button type="submit" class="join-button">Run!</button>
+        </form>
     </section>
 
 
