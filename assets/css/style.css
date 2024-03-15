@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis' , sans-serif;
+}
+
+
+header {
+    background-color: whitesmoke;
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: antiquewhite;
+}
+
+header .logo {
+    position: relative;
+    color: #3a3a33;
+    font-size: 35px;
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+
+header .navigation a{
+    color: black;
+    background: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.10s;
+    transition-property:background;
+}
+header .navigation a:not(:last-child) {
+    margin-right: 30px;
+}
+header .navigation a:hover{
+    background: #fff;
+}
+
+.content {
+    max-width: 500px;
+    margin: 50px 100px;
+}
+
+.content .info h2{
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+
+label {
+    display: none;
+}
+
+#check{
+    z-index: 3;
+}
+
+@media (max-width: 960px) {
+    header .navigation{
+       display: none; 
+    }
+
+ 
+}
