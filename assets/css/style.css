@@ -21,7 +21,6 @@ header {
 }
 
 
-
 section {
     position: relative;
     width: 100%;
@@ -75,7 +74,6 @@ header .navigation a:hover{
     flex-grow: 1;
 }
 
-
 #signup-form {
     color: #ffffff;
     background-color: lightsalmon;
@@ -98,12 +96,6 @@ header .navigation a:hover{
     padding: 0 5px;
 }
 
-.radio-buttons {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
 .join-button {
     margin-top: 20px;
     border-radius: 2px;
@@ -111,6 +103,7 @@ header .navigation a:hover{
     font-size: 100%;
     background-color: black;
     color: #fafafa;
+
 
 label {
     display: none;
