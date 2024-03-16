@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* General style*/
-body{
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* Generic project style*/
     color: #3a3a3a;
-    font-family: 'Dosis' , sans-serif;
+    font-family: 'Dosis', sans-serif;
 }
 
 
 header {
     background-color: antiquewhite;
-    padding:  0 1rem;
-    position:fixed;
+    padding: 0 1rem;
+    position: fixed;
     z-index: 90;
     width: 100%;
     display: flex;
@@ -28,19 +28,35 @@ header {
     align-items: baseline;
 }
 
-header a{
+header a {
     text-decoration: none;
     color: black;
 }
- h1{
+
+h1 {
     letter-spacing: 5px;
     color: black;
- }
+}
+h2{
+    font-size: 130%;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-top: 40px;
+    min-height:150px ;
 
- #menu{
+}
+
+h3{
+    padding-left: 30px;
+}
+
+
+#menu {
     list-style-type: none;
     font-size: 100%;
- }
+}
+
 /* Dropdown toggle */
 
 nav {
@@ -49,8 +65,8 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    display:none;
-    top:100%;
+    display: none;
+    top: 100%;
 }
 
 /* Nav */
@@ -59,7 +75,7 @@ nav {
 }
 
 #nav-toggle {
-    display:none;
+    display: none;
 }
 
 #nav-toggle-label {
@@ -67,51 +83,112 @@ nav {
 }
 
 /*Main content*/
-main{
-    background-color: lightblue;
+main {
     flex: 1 0 auto;
     margin-top: 40px;
 }
+
+/*Food section*/
+#food {
+    height: 500px;
+    width: 100%;
+    background-color: antiquewhite;    
+}
+
+
 /*Footer*/
-#social-icons{
+#social-icons {
     text-align: center;
     padding: 15px 0;
-    display: flex;  
+    display: flex;
     justify-content: space-evenly;
     list-style-type: none;
 }
 
 /*Media query: 768px and up*/
 @media screen and (min-width:769px) {
+
     /*Header for big screens*/
     nav {
-    display: block;
-    position: relative;
-    width: fit-content;
-    padding-right: 5rem;
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 5rem;
     }
 
-    #menu{
+    #menu {
         display: flex;
     }
 
-    #menu >li {
+    #menu>li {
         padding: 2rem;
     }
- .nav-toggle-label{
-    display: none;
- }
 
- /*Main Content */
- main {
-    margin-top: 82px;
- }
-
-/*Large devices - 992px and up*/
-@media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 5px solid #3a3a3a; 
+    .nav-toggle-label {
+        display: none;
     }
+
+    /*Main Content */
+    main {
+        margin-top: 82px;
+    }
+/*Table for the age groups and times*/
+th,
+td {
+    border-bottom: 1px solid black;
+    width:50px;
 }
+
+
+
+/*Sign up form */
+#signup {
+    background-size: 50%;
+    background-position: 50%;
+    padding: 40px 40% 0 35%;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: darkslategrey;
+    padding: 15px;
+}
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 10px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 20px;
+    margin: 2px 0 20 0;
+    border: 1px solid #fafafa;
+    border-radius: 1px;
+    padding: 0 5px;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: black;
+    color: #fafafa;
+}
+
+
+
+
+
+    /*Large devices - 992px and up*/
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 5px solid #3a3a3a;
+        }
+    }
 
 }
