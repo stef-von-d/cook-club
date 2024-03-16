@@ -78,4 +78,36 @@ footer{
 }
 
 /*Media query: 768px and up*/
-@
+@media screen and (min-width:769px) {
+    /*Header for big screens*/
+    nav {
+    display: block;
+    position: relative;
+    width: fit-content;
+    padding-right: 5rem;
+    }
+
+    #menu{
+        display: flex;
+    }
+
+    #menu >li {
+        padding: 2rem;
+    }
+ .nav-toggle-label{
+    display: none;
+ }
+
+ /*Main Content */
+ main {
+    margin-top: 82px;
+ }
+
+/*Large devices - 992px and up*/
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 5px solid #3a3a3a; 
+    }
+}
+
+}
