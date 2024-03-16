@@ -1,11 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Dosis' , sans-serif;
 }
 
 /* General style*/
@@ -14,146 +12,70 @@ body{
     display: flex;
     flex-direction: column;
     /* Generic project style*/
-    color: #3a3a3a
+    color: #3a3a3a;
+    font-family: 'Dosis' , sans-serif;
 }
 
 
-footer {   
-    background-color: #6f4e37;
-	padding: 5em;
-	text-align: center;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-	z-index: 5;
-}
-
-footer > a {
-	color: white;
-	text-decoration: none;
-	padding: 0 0px;
-	font-size: 1rem;
-}
-
-#social-networks {
-    text-decoration: none;
-}
-
-    
 header {
-    background-color: whitesmoke;
-    position: relative;
-    top: 0;
+    background-color: antiquewhite;
+    padding:  0 1rem;
+    position:fixed;
+    z-index: 90;
     width: 100%;
-    padding: 10px 100px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
 }
 
-
-section {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background-color: antiquewhite;
-
-}
-
-header .logo {
-    position: relative;
-    color: #3a3a33;
-    font-size: 35px;
+header a{
     text-decoration: none;
-    letter-spacing: 5px;
-}
-
-header .navigation a{
     color: black;
-    background: whitesmoke;
-    text-decoration: none;
-    letter-spacing: 2px;
-    padding: 2px 15px;
-    border-radius: 20px;
-    transition: 0.10s;
-    transition-property:background;
 }
-header .navigation a:not(:last-child) {
-    margin-right: 30px;
-}
-header .navigation a:hover{
-    background: #fff;
-}
+ h1{
+    letter-spacing: 5px;
+    color: black;
+ }
 
-.content {
-    max-width: 500px;
-    margin: 50px 100px;
-}
-
-.content .info h2{
-    font-size: 38px;
-    margin-bottom: 30px;
-}
-
-th,
-td {
-    border-bottom: 1px solid black;
-}
-
-/*Styling the sign up form */
-#signup {
-    background-size: 50%;
-    background-position: 50%;
-    padding: 40px 40% 0 35%;
-    flex-grow: 1;
-}
-
-#signup-form {
-    color: #ffffff;
-    background-color: darkslategrey;
-    padding: 15px;
-}
-
-#signup-form>h2 {
-    color: #fafafa;
-    margin-bottom: 10px;
-}
-
-.text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 20px;
-    margin: 2px 0 20 0;
-    border: 1px solid #fafafa;
-    border-radius: 1px;
-    padding: 0 5px;
-}
-
-.join-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px;
+ #menu{
+    list-style-type: none;
     font-size: 100%;
-    background-color: black;
-    color: #fafafa;
+ }
+/* Dropdown toggle */
 
-
-label {
-    display: none;
+nav {
+    position: absolute;
+    background: antiquewhite;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display:none;
+    top:100%;
 }
 
-#check{
-    z-index: 3;
+/* Nav */
+#nav-toggle:checked~nav {
+    display: block;
 }
 
-@media (max-width: 960px) {
-    header .navigation{
-       display: none; 
-    } 
+#nav-toggle {
+    display:none;
 }
+
+#nav-toggle-label {
+    font-size: 5rem;
 }
+
+
+main{
+    background-color: lightblue;
+    flex: 1 0 auto;
+    margin-top: 40px;
+}
+
+footer{
+    background-color: brown;
+}
+
+/*Media query: 768px and up*/
+@
