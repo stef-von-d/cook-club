@@ -66,15 +66,19 @@ nav {
     font-size: 5rem;
 }
 
-
+/*Main content*/
 main{
     background-color: lightblue;
     flex: 1 0 auto;
     margin-top: 40px;
 }
-
-footer{
-    background-color: brown;
+/*Footer*/
+#social-icons{
+    text-align: center;
+    padding: 15px 0;
+    display: flex;  
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
 /*Media query: 768px and up*/
