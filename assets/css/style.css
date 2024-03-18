@@ -17,6 +17,8 @@ body {
 }
 
 
+/* Header, text style and decoration*/
+
 header {
     background-color: antiquewhite;
     padding: 0 1rem;
@@ -51,6 +53,22 @@ h2 {
 h3 {
     padding-left: 30px;
 }
+/* Image*/
+img {
+    max-width: 700px;
+    padding: 5px;
+    display: block;
+    float: right;
+    margin-right: 10px;
+}
+
+
+    .responsive {
+    max-width: 49%;
+    width: 100%;
+    height: auto;
+    }    
+
 
 
 #menu {
@@ -142,7 +160,6 @@ main {
     }
 
 
-
     /*Sign up form */
     #signup {
         background-size: 50%;
@@ -181,8 +198,6 @@ main {
         background-color: black;
         color: #fafafa;
     }
-
-
 
 
 
