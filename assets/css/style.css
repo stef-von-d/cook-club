@@ -112,9 +112,26 @@ main {
 
 /*Food section*/
 #food {
-    height: 500px;
+    display: flex;
+    flex-direction: column;
+    /* height: 500px; */
     width: 100%;
     background-color: antiquewhite;
+    align-items: center;
+}
+
+#class-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text {
+    width: 80%;
+}
+
+#food img {
+    width: 80%;
 }
 
 
@@ -155,14 +172,39 @@ main {
         margin-top: 82px;
     }
 
+    #food {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #text {
+        width: 40%;
+    }
+    
+    #food img {
+        width: 50%;
+    }
+
     /*About, contact and offer section text*/
     #about {
         text-align: center;
     }
 
     #offer {
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        /* text-align: center;
+        align-items: center; */
     }
+
+    #class-info {
+        
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    
 
     #contact {
         text-align: center;
@@ -215,7 +257,6 @@ main {
         background-color: black;
         color: #fafafa;
     }
-
 
 
     /*Large devices - 992px and up*/
