@@ -258,6 +258,15 @@ main {
         color: #fafafa;
     }
 
+    /*Gallery */
+#image img {
+    width:100%;
+    line-height: 2em;
+}
+
+#picture {
+    line-height: 0;
+}
 
     /*Large devices - 992px and up*/
     @media screen and (min-width: 992px) {
