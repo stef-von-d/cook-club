@@ -64,11 +64,21 @@ The Cook Club is a page for kids looking for a fun cooking club aged between 7-1
 
 
 
-10.	Deployment 
+### 	Deployment 
 The site was deployed on GitHub pages. The deploy steps are:
-	In the GitHub repository, navigate to the Settings tab.
-	From the source section drop-down menu, select the Master Branch.
-	Once the master branch has been selected, the page provided the link to the complete website. 
+*	In the GitHub repository, navigate to the Settings tab.
+*	From the source section drop-down menu, select the Master Branch.
+*	Once the master branch has been selected, the page provided the link to the complete website.
+
+
+  
+
+### Credit 
+#### Content
+ *    The code to make the social media links were taken from the Code Institute Love Running Project
+#### Media
+  *    The images used in the Cook Club project were taken from [Pexels](https://www.pexels.com/)
+  *    The social media icons were taken from [Font Awesome](https://fontawesome.com/)
 
 
 
