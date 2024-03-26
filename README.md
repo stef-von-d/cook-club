@@ -46,27 +46,27 @@ The Cook Club is a page for kids looking for a fun cooking club aged between 7-1
 ![Screenshot 2024-03-25 122354](https://github.com/stef-von-d/cook-club/assets/159139306/71a69e60-9931-4f1f-8e40-6def74af8677) 
 
   
-### 	Testing 
+## 	Testing 
 
 *	I tested this page works on different browsers: Chrome and Firefox.
 *	I confirm that the navigation, header, about us, gallery and sign up text are all readable and easy to understand. 
 *	I confirm that this project is responsive and functions on all standard screen sizes using the devtools devices toolbar. 
 *	I confirm that the form works: requires entries in every field, it will only accept an email address in the email field and the submit button works. 
 
-### 	Validator Testing 
+## 	Validator Testing 
 
-#### HTML
+### HTML
 *	No errors were returned when passing through the official [W3C validator](https://validator.w3.org/) .
- ####  CSS
+ ###  CSS
 *	No error found when returning through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/) .
-   ####  Accessibility 
+   ###  Accessibility 
 *	I confirm that the colours and fonts are easy to read and accessible by running it through lighthouse in devtools. 
 
 ![Screenshot 2024-03-25 124703](https://github.com/stef-von-d/cook-club/assets/159139306/b0ee3a8f-00e4-4704-ae9b-1773e4c95482)
 
 
 
-### 	Deployment 
+## 	Deployment 
 
 The site was deployed on GitHub pages. The deploy steps are:
 *	In the GitHub repository, navigate to the Settings tab.
@@ -76,22 +76,14 @@ The site was deployed on GitHub pages. The deploy steps are:
 
   
 
-### Credit 
+## Credits 
 
 
-#### Content
+### Content
  *    The code to make the social media links was taken from the Code Institute Love Running Project. 
  *    The code to make the navigation bar were inspired by the YouTube tutorial [Responsive Website Landing Page Design](https://www.youtube.com/watch?v=JYWitDwHhxE&t=443s) and Code Institude Love Running Project. 
-#### Media
+### Media
   *    The images used in the Cook Club project were taken from [Pexels](https://www.pexels.com/)
   *    The social media icons were taken from [Font Awesome](https://fontawesome.com/)
-
-
-
-
-
-
-
-
 
 
