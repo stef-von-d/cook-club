@@ -81,7 +81,7 @@ The site was deployed on GitHub pages. The deploy steps are:
 
 ### Content
  *    The code to make the social media links was taken from the Code Institute Love Running Project. 
- *    The code to make the navigation bar were inspired by the YouTube tutorial [Responsive Website Landing Page Design](https://www.youtube.com/watch?v=JYWitDwHhxE&t=443s) and Code Institude Love Running Project. 
+ *    The code to make the navigation bar were inspired by the YouTube tutorial [Responsive Website Landing Page Design](https://www.youtube.com/watch?v=JYWitDwHhxE&t=443s) and Code Institute Love Running Project. 
 ### Media
   *    The images used in the Cook Club project were taken from [Pexels](https://www.pexels.com/)
   *    The social media icons were taken from [Font Awesome](https://fontawesome.com/)
