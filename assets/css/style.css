@@ -54,19 +54,19 @@ h3 {
 }
 
 /* Image*/
-img {
+/* img {
     max-width: 700px;
     padding: 5px;
     display: block;
     float: right;
     margin-right: 10px;
-}
+} */
 
 /*Media query:phones (576px and up)*/
- /*@media screen and (min-width:576px) {
+/*@media screen and (min-width:576px) {
     #photo img {
-    width:100%*/ 
-            
+    width:100%*/
+
 
 /*.responsive {
     max-width: 49%;
@@ -135,6 +135,18 @@ main {
 }
 
 
+#picture {
+    line-height: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#picture img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
 /*Footer*/
 #social-icons {
     text-align: center;
@@ -180,7 +192,7 @@ main {
     #text {
         width: 40%;
     }
-    
+
     #food img {
         width: 50%;
     }
@@ -198,13 +210,22 @@ main {
     }
 
     #class-info {
-        
+
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
     }
 
-    
+    #picture {
+        flex-direction: row;    
+        flex-wrap: wrap;
+    }
+
+    #picture img {
+        width: 50%;
+    }
+
+
 
     #contact {
         text-align: center;
@@ -259,20 +280,20 @@ main {
     }
 
     /*Gallery */
-#image img {
-    width:100%;
-    line-height: 2em;
+    
+
+    
+
+
 }
 
-#picture {
-    line-height: 0;
-}
-
-    /*Large devices - 992px and up*/
-    @media screen and (min-width: 992px) {
-        #menu a:hover {
-            border-bottom: 5px solid #3a3a3a;
-        }
+/*Large devices - 992px and up*/
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 5px solid #3a3a3a;
     }
 
+    #picture img {
+        width: 33%;
+    }
 }
