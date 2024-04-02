@@ -13,13 +13,13 @@ The Cook Club is a page for kids looking for a fun cooking club aged between 7-1
 *	The navigation clearly tells the user the name of the club and website and makes the sections easy to read.
   ![Screenshot 2024-03-25 121701](https://github.com/stef-von-d/cook-club/assets/159139306/acaa9eee-ca17-496c-b4ff-33aed5b587d5)
   
-### 	The Header
+###     Header
 *	The header explains the club is for kids and young adults aged between 7-18. 
 *	This section provides the user with clear information about the site and who is the club for.
 *	On the right hand size in the header it is a picture with kids cooking. 
 ![Screenshot 2024-03-25 121815](https://github.com/stef-von-d/cook-club/assets/159139306/0c586486-16ce-4d3a-b115-786cbb34194e)
 
-### About Us
+###    About Us
 *	The About Us section offers a better insight into the club concept and what is included in the package when a kid joins the Cook Club.
 *	In this section, users will be able to find a table with the day, time and age information.
   
@@ -63,6 +63,7 @@ The Cook Club is a page for kids looking for a fun cooking club aged between 7-1
 #### Pexels 
 * The images used in the Cook Club project were taken from [Pexels](https://www.pexels.com/)
 
+  
 
 
 ## 	Testing 
@@ -164,7 +165,6 @@ Website is displaying a message letting the user know that a field was not fille
  <br>
 
 
-
 **Scenario Four - Missing Required Field Email**
 <br>
 Steps to test:
@@ -212,7 +212,6 @@ Testing was performed to ensured that each social media icon opened in a new tab
  ###  CSS
 *	No error found when returning through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/) .
 
- 
 
 
 
