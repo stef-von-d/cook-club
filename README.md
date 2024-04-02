@@ -1,7 +1,9 @@
 # Cook Club
-The Cook Club is a page for kids looking for a fun cooking club aged between 7-18. Cook Club offers fun cooking classes for young adults to help them improve their cooking skills.  On this website, users will be able to find the information that they need about the Cook Club such as meeting times, age groups, package offers, photos of kids cooking and sign-up form.  
+The Cook Club is a page for kids looking for a fun cooking club aged between 7-18. Cook Club offers fun cooking classes for young adults to help them improve their cooking skills.  On this website, users will be able to find the information that they need about the Cook Club such as meeting times, age groups, package offers, photos of kids cooking and sign-up form.
 
-![Screenshot 2024-03-25 125114](https://github.com/stef-von-d/cook-club/assets/159139306/38f57528-2f6c-4435-bc83-563a9ea332b7)
+![Screenshot 2024-03-30 104616](https://github.com/stef-von-d/cook-club/assets/159139306/49671e63-96eb-4fe0-8848-c94b0e630970)
+
+
 
 
 ## Features
@@ -15,43 +17,193 @@ The Cook Club is a page for kids looking for a fun cooking club aged between 7-1
 *	The header explains the club is for kids and young adults aged between 7-18. 
 *	This section provides the user with clear information about the site and who is the club for.
 *	On the right hand size in the header it is a picture with kids cooking. 
-
 ![Screenshot 2024-03-25 121815](https://github.com/stef-von-d/cook-club/assets/159139306/0c586486-16ce-4d3a-b115-786cbb34194e)
 
-### ABOUT US 
+### About Us
 *	The About Us section offers a better insight into the club concept and what is included in the package when a kid joins the Cook Club.
 *	In this section, users will be able to find a table with the day, time and age information.
   
 ![Screenshot 2024-03-25 190910](https://github.com/stef-von-d/cook-club/assets/159139306/e352f582-b36c-45b6-b287-2ef0172d1e18)
 
 ### 	Footer
-*	It contains the contact details and social media links. The footer gives the users the ability to find and contact the Cook Club if they want. 
-* The footer encourages users to get in touch and provides a phone number, email address, and street address where they can be found.
- * Also, in the footer are social media icons so users can find the Cook Club on Facebook, Instagram and Twitter. The icons will open in a new tab for a better user experience. 
+ * It contains the contact details and social media links. The footer gives the users the ability to find and contact the Cook Club if they want. 
+ * The footer encourages users to get in touch and provides a phone number, email address, and street address where they can be found.
+ * Also, in the footer are social media icons so users can find the Cook Club on Facebook, Instagram and Twitter.  
 
 ![Screenshot 2024-03-25 191530](https://github.com/stef-von-d/cook-club/assets/159139306/02853d45-d02d-49f4-9e1d-53092db3f3ad)
 
  
-### 	GALLERY
+### 	Gallery
 *	The Gallery section shows pictures of the kids cooking with different age groups. 
 *	This will allow website’s users to see a little insight of how it is like to be part of the Cook Club. 
 
-![Screenshot 2024-03-25 122431](https://github.com/stef-von-d/cook-club/assets/159139306/4880d218-d7b0-4d15-bb7a-9cca4af2138a)
+![Screenshot 2024-03-30 103921](https://github.com/stef-von-d/cook-club/assets/159139306/09e8dafb-3a58-414e-b15e-059a319d87b3)
 
 
-### 	The Sign Up  
+
+### 	Sign Up  
 *	The signup section has a form to collect details for the user so user can sign up for the Cook Club.
 *	The form collects the user’s name and email address.
 *	The sign up form is important because through this method the users can sign up and join the Cook Club.
 ![Screenshot 2024-03-25 122354](https://github.com/stef-von-d/cook-club/assets/159139306/71a69e60-9931-4f1f-8e40-6def74af8677) 
 
-  
-## 	Testing 
 
-*	I tested this page works on different browsers: Chrome and Firefox.
-*	I confirm that the navigation, header, about us, gallery and sign up text are all readable and easy to understand. 
-*	I confirm that this project is responsive and functions on all standard screen sizes using the devtools devices toolbar. 
-*	I confirm that the form works: requires entries in every field, it will only accept an email address in the email field and the submit button works. 
+## Technologies 
+#### HTML
+* The structure of the Website was developed using HTML as the main language.
+#### CSS
+* The Website was styled using CSS.
+#### GitHub
+*	Source code is hosted on GitHub and deployed using Git Pages.
+#### Git
+*	Used to commit and push code during development of the project.
+
+#### Font Awesome
+*	The social media icons were taken from [Font Awesome](https://fontawesome.com/)
+#### Pexels 
+* The images used in the Cook Club project were taken from [Pexels](https://www.pexels.com/)
+
+
+
+## 	Testing 
+### Responsiveness 
+All pages were tested to ensure that responsive according to the W3c Web Accessibility on Chrome and Firefox browsers. 
+Steps to test:
+1.	Open browser and navigate to Cook Club 
+2.	Open the developer tools (right click and inspect)
+3.	Set to responsive and decrease width to 320px
+4.	Set the zoom to 50%
+5.	Click and drag the responsive window to maximum width
+
+Expected:
+Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap.<br>
+
+Actual:
+A few pictures size in the gallery have been changed to fit the responsiveness. As a result, the quality of some picture has changed. This issue is mentioned in bugs. 
+
+### Accessibility
+
+Manual accessibility testing was performed using Lighthouse. 	I confirm that the colors and fonts are easy to read and accessible by running it through lighthouse in devtools. 
+
+![Screenshot 2024-03-25 124703](https://github.com/stef-von-d/cook-club/assets/159139306/4de9e9e6-01d9-4213-9d7d-db854c009200)
+
+
+
+
+## Functional testing 
+### Navigation links
+
+Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page. 
+
+| Navigation Link | Page to load |
+| -----------     | -----------  |
+| Home            | Index.html   |
+| Gallery         | Gallery.html |
+|Sign Up          |Signup.html   |
+
+
+### Sign Up form testing
+
+The sign-up form was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following scenarios were covered. 
+
+**Scenario One – Correct Inputs**
+<br>
+Steps to test: 
+1.	Navigate to [Cook Club-Sign Up Form](https://8000-stef-von-d-cook-club-14jaf6j3a3.us1.codeanyapp.com/signup.html)
+2.	Add the following data: 
+* First Name: Tom
+* Last Name: Smith
+* Email: Tom.smith@gmail.com
+
+3.	Click Join Now!
+4.	User should be redirected to signup.html confirmation page. 
+
+Expected:
+Form submits with no warnings or errors and user is redirected to contact.html confirmation page. 
+<br>
+Actual:
+Website behaved as expected with no errors or warnings.
+
+<br>
+
+
+**Scenario Two - Missing Required Field First Name**
+<br>
+Steps to test:
+1.	Navigate to [Cook Club- Sign Up Form](https://8000-stef-von-d-cook-club-14jaf6j3a3.us1.codeanyapp.com/signup.html)
+2.	Scroll down to the form and input the following data:
+* First Name:
+* Last Name: Tom
+* Email: tom.smith@gmail.com 
+3.	Click Join Now!
+  
+Expected:
+The form does not submit and an Error is displayed to tell the user that the field is required. 
+<br>
+
+Actual:
+Website is displaying a message letting the user know that a field was not filled. 
+
+<br>
+
+**Scenario Three - Missing Required Field Last Name**
+<br>
+Steps to test:
+1.	Navigate to [Cook Club- Sign Up Form](https://8000-stef-von-d-cook-club-14jaf6j3a3.us1.codeanyapp.com/signup.html)
+2.	Scroll down to the form and input the following data:
+    * First Name: Tom
+    * Last Name:
+    * Email: tom.smith@gmail.com 
+3.	Click Join Now!
+
+Expected:
+The form does not submit and an Error is displayed to tell the user that the field is required.
+<br>
+Actual:
+Website is displaying a message letting the user know that a field was not filled. 
+ <br>
+
+
+
+**Scenario Four - Missing Required Field Email**
+<br>
+Steps to test:
+1.	Navigate to [Cook Club- Sign UP Form](https://8000-stef-von-d-cook-club-14jaf6j3a3.us1.codeanyapp.com/signup.html)
+2.	Scroll down to the form and input the following data:
+* First Name: Tom
+* Last Name: Smith
+* Email:
+3.	Click Join Now!
+  
+Expected:
+The form does not submit and an Error is displayed to tell the user that the field is required.
+<br>
+Actual:
+Website is displaying a message letting the user know that a field was not filled.
+
+<br>
+
+**Scenario Five - Incorrect email format**
+<br>
+Steps to test:
+1.	Navigate to [Cook Club- Sign Up Form](https://8000-stef-von-d-cook-club-14jaf6j3a3.us1.codeanyapp.com/signup.html)
+2.	Scroll down to the form and input the following data:
+	* First Name:Tom
+	* Last Name: Smith
+	* Email: tom.smithgmail.com
+3.	Click Join Now
+
+Expected:
+The form does not submit and an Error is displayed to tell the user that a valid email is required and the format it should be in.
+<br>
+Actual:
+The website is informing the user that “@” is missing.
+<br>
+
+
+### Footer Social Media Icons/Links
+Testing was performed to ensured that each social media icon opened in a new tab. Each item opened a new tab when clicked as expected.
+
 
 ## 	Validator Testing 
 
@@ -59,10 +211,8 @@ The Cook Club is a page for kids looking for a fun cooking club aged between 7-1
 *	No errors were returned when passing through the official [W3C validator](https://validator.w3.org/) .
  ###  CSS
 *	No error found when returning through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/) .
-   ###  Accessibility 
-*	I confirm that the colours and fonts are easy to read and accessible by running it through lighthouse in devtools. 
 
-![Screenshot 2024-03-25 124703](https://github.com/stef-von-d/cook-club/assets/159139306/b0ee3a8f-00e4-4704-ae9b-1773e4c95482)
+ 
 
 
 
@@ -72,19 +222,13 @@ The site was deployed on GitHub pages. The deploy steps are:
 *	In the GitHub repository, navigate to the Settings tab.
 *	From the source section drop-down menu, select the Master Branch.
 *	Once the master branch has been selected, the page provided the link to the complete website.
-
-
-  
+ 
 
 ## Credits 
 
 
 ### Content
  *    The code to make the social media links was taken from the Code Institute Love Running Project. 
- *    The code to make the navigation bar were inspired by the YouTube tutorial [Responsive Website Landing Page Design](https://www.youtube.com/watch?v=JYWitDwHhxE&t=443s) and Code Institude Love Running Project. 
- 
-### Media
-  *    The images used in the Cook Club project were taken from [Pexels](https://www.pexels.com/)
-  *    The social media icons were taken from [Font Awesome](https://fontawesome.com/)
+ *    The code to make the navigation bar were inspired by the YouTube tutorial [Responsive Website Landing Page Design](https://www.youtube.com/watch?v=JYWitDwHhxE&t=443s) and Code Institute Love Running Project. 
 
 
