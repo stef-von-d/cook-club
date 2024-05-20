@@ -53,26 +53,6 @@ h3 {
     padding-left: 30px;
 }
 
-/* Image*/
-/* img {
-    max-width: 700px;
-    padding: 5px;
-    display: block;
-    float: right;
-    margin-right: 10px;
-} */
-
-/*Media query:phones (576px and up)*/
-/*@media screen and (min-width:576px) {
-    #photo img {
-    width:100%*/
-
-
-/*.responsive {
-    max-width: 49%;
-    width: 100%;
-    height: auto;
-}*/
 
 #menu {
     list-style-type: none;
@@ -279,11 +259,6 @@ main {
         color: #fafafa;
     }
 
-    /*Gallery */
-  
-
-
-}
 
 /*Large devices - 992px and up*/
 @media screen and (min-width: 992px) {
