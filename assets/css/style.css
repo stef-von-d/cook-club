@@ -259,6 +259,13 @@ main {
         color: #fafafa;
     }
 
+    .container{
+      text-align: center;  
+    }
+
+    .error-img{
+        width: 50%;
+    }
 
 /*Large devices - 992px and up*/
 @media screen and (min-width: 992px) {
