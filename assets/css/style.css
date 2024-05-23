@@ -206,7 +206,6 @@ main {
     }
 
 
-
     #contact {
         text-align: center;
     }
@@ -259,6 +258,7 @@ main {
         color: #fafafa;
     }
 
+    /*Styled the 404 page*/
     .container{
       text-align: center;  
     }
