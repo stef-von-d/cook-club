@@ -197,7 +197,7 @@ main {
     }
 
     #picture {
-        flex-direction: row;    
+        flex-direction: row;
         flex-wrap: wrap;
     }
 
@@ -259,21 +259,21 @@ main {
     }
 
     /*Styled the 404 page*/
-    .container{
-      text-align: center;  
+    .container {
+        text-align: center;
     }
 
-    .error-img{
+    .error-img {
         width: 40%;
     }
 
-/*Large devices - 992px and up*/
-@media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 5px solid #3a3a3a;
-    }
+    /*Large devices - 992px and up*/
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 5px solid #3a3a3a;
+        }
 
-    #picture img {
-        width: 33%;
+        #picture img {
+            width: 33%;
+        }
     }
-}
