@@ -236,9 +236,16 @@ Testing was performed to ensured that each social media icon opened in a new tab
 
 ![Screenshot 2024-05-25 081348](https://github.com/stef-von-d/love-running/assets/159139306/931df64f-f701-445b-bc57-cfab8fc5aa81)
 
+![Screenshot 2024-05-25 083349](https://github.com/stef-von-d/love-running/assets/159139306/af4f3e2e-926d-4b4e-bb38-194cad11a482)
+
+
+
+
 
  ###  CSS
 *	No error found when returning through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/) .
+
+![Screenshot 2024-05-25 085027](https://github.com/stef-von-d/love-running/assets/159139306/fa925d18-f676-4ac6-985c-9c4cabe3c4d1)
 
 
 ##  Unfixed Bugs
