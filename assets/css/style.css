@@ -11,6 +11,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+
     /* Generic project style*/
     color: #3a3a3a;
     font-family: 'Dosis', sans-serif;
@@ -94,7 +95,6 @@ main {
 #food {
     display: flex;
     flex-direction: column;
-    /* height: 500px; */
     width: 100%;
     background-color: antiquewhite;
     align-items: center;
