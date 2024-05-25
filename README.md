@@ -36,6 +36,9 @@ The Cook Club is a page for kids looking for a fun cooking club aged between 7-1
 * The favicon provides an image in the the tabs header to allow the user to easily identify the website if they have multiple tabs open.
 * Favicon taken from [Love Math Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+3/courseware/2d651bf3f23e48aeb9b9218871912b2e/04d7bdb98119413991e2a31e9a291970/?child=first)
 
+### 404 Page
+* A 404 page will be implemented and will display if a user navigates to a broken link.
+* The 404 page will allow the user to easily navigate back to the main website if they direct to a broken link / missing page, without the need of the browsers back button.
  
 ### 	Gallery
 *	The Gallery section shows pictures of the kids cooking with different age groups. 
