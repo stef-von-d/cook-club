@@ -258,15 +258,7 @@ main {
         color: #fafafa;
     }
 
-    /*Styled the 404 page*/
-    .container {
-        text-align: center;
-    }
-
-    .error-img {
-        width: 40%;
-    }
-
+  
     /*Large devices - 992px and up*/
     @media screen and (min-width: 992px) {
         #menu a:hover {
