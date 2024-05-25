@@ -54,7 +54,10 @@ The Cook Club is a page for kids looking for a fun cooking club aged between 7-1
 
 ![Screenshot 2024-03-30 103921](https://github.com/stef-von-d/cook-club/assets/159139306/09e8dafb-3a58-414e-b15e-059a319d87b3)
 
-
+### Existing features
+* Responsive design
+* Resposive gallery
+* Sign Up Form 
 
 ### 	Sign Up  
 *	The signup section has a form to collect details for the user so user can sign up for the Cook Club.
