@@ -185,8 +185,6 @@ main {
     #offer {
         display: flex;
         flex-direction: column;
-        /* text-align: center;
-        align-items: center; */
     }
 
     #class-info {
@@ -258,15 +256,16 @@ main {
         color: #fafafa;
     }
 
-  
+
     /*Large devices - 992px and up*/
     @media screen and (min-width: 992px) {
         #menu a:hover {
             border-bottom: 5px solid #3a3a3a;
         }
     }
-}
 
-#picture img {
-    width: 33%;
+    #picture img {
+        width: 50%;
+    }
+
 }
