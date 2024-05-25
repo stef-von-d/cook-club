@@ -239,6 +239,7 @@ Testing was performed to ensured that each social media icon opened in a new tab
 ![Screenshot 2024-05-25 083349](https://github.com/stef-von-d/love-running/assets/159139306/af4f3e2e-926d-4b4e-bb38-194cad11a482)
 
 
+![Screenshot 2024-05-25 083349](https://github.com/stef-von-d/love-running/assets/159139306/af4f3e2e-926d-4b4e-bb38-194cad11a482)
 
 
 
