@@ -57,7 +57,11 @@ The Cook Club is a page for kids looking for a fun cooking club aged between 7-1
 ### Existing features
 * Responsive design
 * Resposive gallery
-* Sign Up Form 
+* Sign Up Form
+
+### Fetures Left to Implement 
+* Implementing filtering at the gallery page
+* Animate the galley page
 
 ### 	Sign Up  
 *	The signup section has a form to collect details for the user so user can sign up for the Cook Club.
