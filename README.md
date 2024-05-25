@@ -49,7 +49,8 @@ The Cook Club is a page for kids looking for a fun cooking club aged between 7-1
  
 ### 	Gallery
 *	The Gallery section shows pictures of the kids cooking with different age groups. 
-*	This will allow website’s users to see a little insight of how it is like to be part of the Cook Club. 
+*	This will allow website’s users to see a little insight of how it is like to be part of the Cook Club.
+*	The gallery will be fully responsive on all devices and allows the user to filter by categories provided in a sub navigation.
 
 ![Screenshot 2024-03-30 103921](https://github.com/stef-von-d/cook-club/assets/159139306/09e8dafb-3a58-414e-b15e-059a319d87b3)
 
