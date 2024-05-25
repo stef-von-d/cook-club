@@ -104,7 +104,7 @@ Expected:
 Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap.<br>
 
 Actual:
-A few pictures size in the gallery have been changed to fit the responsiveness. As a result, the quality of some picture has changed. This issue is mentioned in bugs. 
+A few pictures size in the gallery have been changed to fit the responsiveness. As a result, the quality of some picture has changed. This issue is mentioned in bugs section. 
 
 ### Accessibility
 
@@ -241,6 +241,8 @@ Testing was performed to ensured that each social media icon opened in a new tab
 *	No error found when returning through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/) .
 
 
+### Unfixed Bugs
+Some pictures in the gallery page have changed the quality therefore, the quality of some pictures are not clear. I was unable to resolve this issue on tome but I will address in a future release. 
 
 
 ## 	Deployment 
