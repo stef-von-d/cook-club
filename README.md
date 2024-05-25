@@ -241,7 +241,7 @@ Testing was performed to ensured that each social media icon opened in a new tab
 *	No error found when returning through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/) .
 
 
-### Unfixed Bugs
+##  Unfixed Bugs
 Some pictures in the gallery page have changed the quality therefore, the quality of some pictures are not clear. I was unable to resolve this issue on tome but I will address in a future release. 
 
 
