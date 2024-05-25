@@ -231,6 +231,10 @@ Testing was performed to ensured that each social media icon opened in a new tab
 
 ### HTML
 *	No errors were returned when passing through the official [W3C validator](https://validator.w3.org/) .
+
+![Screenshot 2024-05-25 081348](https://github.com/stef-von-d/love-running/assets/159139306/931df64f-f701-445b-bc57-cfab8fc5aa81)
+
+
  ###  CSS
 *	No error found when returning through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/) .
 
