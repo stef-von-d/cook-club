@@ -272,8 +272,9 @@ main {
         #menu a:hover {
             border-bottom: 5px solid #3a3a3a;
         }
-
-        #picture img {
-            width: 33%;
-        }
     }
+}
+
+#picture img {
+    width: 33%;
+}
