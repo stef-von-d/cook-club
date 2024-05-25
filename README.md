@@ -33,8 +33,7 @@ The Cook Club is a page for kids looking for a fun cooking club aged between 7-1
 ![Screenshot 2024-03-25 191530](https://github.com/stef-von-d/cook-club/assets/159139306/02853d45-d02d-49f4-9e1d-53092db3f3ad)
 
 ### Favicon
-* The favicon provides an image in the the tabs header to allow the user to easily identify the website if they have multiple tabs open.
-  ![Screenshot 2024-05-25 074018](https://github.com/stef-von-d/love-running/assets/159139306/a7e64e48-4748-445f-8e3f-98d33851b01a)
+* The favicon provides an image in the the tabs header to allow the user to easily identify the website if they have multiple tabs open ![Screenshot 2024-05-25 074018](https://github.com/stef-von-d/love-running/assets/159139306/a7e64e48-4748-445f-8e3f-98d33851b01a)
   
 * Favicon taken from [Love Math Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+3/courseware/2d651bf3f23e48aeb9b9218871912b2e/04d7bdb98119413991e2a31e9a291970/?child=first)
 
