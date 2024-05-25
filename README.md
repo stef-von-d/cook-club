@@ -32,14 +32,38 @@ The Cook Club is a page for kids looking for a fun cooking club aged between 7-1
 
 ![Screenshot 2024-03-25 191530](https://github.com/stef-von-d/cook-club/assets/159139306/02853d45-d02d-49f4-9e1d-53092db3f3ad)
 
+### Favicon
+* The favicon provides an image in the the tabs header to allow the user to easily identify the website if they have multiple tabs open
+
+![Screenshot 2024-05-25 074018](https://github.com/stef-von-d/love-running/assets/159139306/a7e64e48-4748-445f-8e3f-98d33851b01a)
+  
+* Favicon taken from [Love Math Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+3/courseware/2d651bf3f23e48aeb9b9218871912b2e/04d7bdb98119413991e2a31e9a291970/?child=first)
+
+### 404 Page
+* A 404 page will be implemented and will display if a user navigates to a broken link.
+* The 404 page will allow the user to easily navigate back to the main website if they direct to a broken link / missing page, without the need of the browsers back button.
+
+### Landing Page
+* The landing page has an image with kids cooking along with brief information about the site giving the user an idea what the website is about.
+  
+![Screenshot 2024-05-25 075537](https://github.com/stef-von-d/love-running/assets/159139306/387fab43-3e5e-4da0-94cf-007fcf128db9)
+
  
 ### 	Gallery
 *	The Gallery section shows pictures of the kids cooking with different age groups. 
-*	This will allow website’s users to see a little insight of how it is like to be part of the Cook Club. 
+*	This will allow website’s users to see a little insight of how it is like to be part of the Cook Club.
+*	The gallery will be fully responsive on all devices and allows the user to filter by categories provided in a sub navigation.
 
 ![Screenshot 2024-03-30 103921](https://github.com/stef-von-d/cook-club/assets/159139306/09e8dafb-3a58-414e-b15e-059a319d87b3)
 
+### Existing features
+* Responsive design
+* Resposive gallery
+* Sign Up Form
 
+### Fetures Left to Implement 
+* Implementing filtering at the gallery page
+* Animate the galley page
 
 ### 	Sign Up  
 *	The signup section has a form to collect details for the user so user can sign up for the Cook Club.
@@ -80,7 +104,7 @@ Expected:
 Website is responsive on all screen sizes and no images are pixelated or stretched. No horizontal scroll is present. No elements overlap.<br>
 
 Actual:
-A few pictures size in the gallery have been changed to fit the responsiveness. As a result, the quality of some picture has changed. This issue is mentioned in bugs. 
+A few pictures size in the gallery have been changed to fit the responsiveness. As a result, the quality of some picture has changed. This issue is mentioned in bugs section. 
 
 ### Accessibility
 
@@ -209,10 +233,23 @@ Testing was performed to ensured that each social media icon opened in a new tab
 
 ### HTML
 *	No errors were returned when passing through the official [W3C validator](https://validator.w3.org/) .
+
+![Screenshot 2024-05-25 081348](https://github.com/stef-von-d/love-running/assets/159139306/931df64f-f701-445b-bc57-cfab8fc5aa81)
+
+![Screenshot 2024-05-25 083349](https://github.com/stef-von-d/love-running/assets/159139306/af4f3e2e-926d-4b4e-bb38-194cad11a482)
+
+
+
+
+
  ###  CSS
 *	No error found when returning through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/) .
 
+![Screenshot 2024-05-25 085027](https://github.com/stef-von-d/love-running/assets/159139306/fa925d18-f676-4ac6-985c-9c4cabe3c4d1)
 
+
+##  Unfixed Bugs
+Some pictures in the gallery page have changed the quality therefore, the quality of some pictures are not clear. I was unable to resolve this issue on tome but I will address in a future release. 
 
 
 ## 	Deployment 
